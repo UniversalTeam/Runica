@@ -1,16 +1,17 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
+  "modid": "Runica",
+  "name": "Runica",
+  "description": "Runica, the mod that adds in Magic, adventure, and much more",
+  "version": "$version",
+  "mcversion": "$mcversion",
+  "url": "https://github.com/UniversalTeam/Runica",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Blorph", "big_Xplosion", "SeamusFD"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": [UniversalCore]
 }
 ]
+

@@ -595,7 +595,7 @@ Build 1.7.2-10.12.0.993:
 	LexManos: Fix DoublePlant placement, closes #921
 
 Build 1.7.2-10.12.0.991:
-	смирнов антон михайлович: Create ru_RU.lang
+	смирнов антон михайлович: Create ru_RU.assets.runica.lang
 
 Build 1.7.2-10.12.0.990:
 	dhtvut5vyetvervtyhrbtdy:
@@ -604,8 +604,8 @@ Build 1.7.2-10.12.0.990:
 		MinecraftForge/FML@9de9a1553086ebeeb5d5fc0f6d96da8680e52df0 Fix stupid hardcoding derp
 
 Build 1.7.2-10.12.0.989:
-	Vexatos: Create de_DE.lang
-	Vexatos: Update de_DE.lang
+	Vexatos: Create de_DE.assets.runica.lang
+	Vexatos: Update de_DE.assets.runica.lang
 	LexManos: Fixed pipeline naming issue in the ForgeNetworkHandler.
 
 Build 1.7.2-10.12.0.987:
@@ -1292,7 +1292,7 @@ Build 1.6.2-9.10.1.853:
 		Added fov hook
 		
 		Small formatting changes (opening braces on new line)
-	dhtvut5vyetvervtyhrbtdy: Create es_ES.lang
+	dhtvut5vyetvervtyhrbtdy: Create es_ES.assets.runica.lang
 
 Build 1.6.2-9.10.1.852:
 	dhtvut5vyetvervtyhrbtdy: Add some javadoc to the HarvestBlock event.
@@ -1369,7 +1369,7 @@ Build 1.6.2-9.10.0.843:
 	dhtvut5vyetvervtyhrbtdy:
 		Updated FML:
 		MinecraftForge/FML@1c9a853868f7df0daa5f67b99401dfab44ae18e6 Allow coremods to properly inject asset readers.
-		MinecraftForge/FML@40b54013b4c9b01686411cd47a7866eeb650ea2b Allow server side lang file injection, hopefully
+		MinecraftForge/FML@40b54013b4c9b01686411cd47a7866eeb650ea2b Allow server side assets.runica.lang file injection, hopefully
 	dhtvut5vyetvervtyhrbtdy: Add some starting work for a forge tps command. Also update coremod for new FML behaviour
 
 Build 1.6.2-9.10.0.842:

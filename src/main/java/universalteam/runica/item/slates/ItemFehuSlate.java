@@ -1,4 +1,4 @@
-package universalteam.runica.slates;
+package universalteam.runica.item.slates;
 
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;

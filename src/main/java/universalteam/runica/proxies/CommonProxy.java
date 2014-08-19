@@ -4,8 +4,8 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import universalteam.runica.lib.Reference;
-import universalteam.runica.slates.ItemBlankSlate;
-import universalteam.runica.slates.ItemFehuSlate;
+import universalteam.runica.item.slates.ItemBlankSlate;
+import universalteam.runica.item.slates.ItemFehuSlate;
 import universalteam.universalcore.version.UCVersion;
 import universalteam.universalcore.version.UCVersionChecker;
 

@@ -3,8 +3,11 @@ package universalteam.runica.proxies;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import universalteam.runica.lib.Reference;
 import universalteam.runica.slates.ItemBlankSlate;
 import universalteam.runica.slates.ItemFehuSlate;
+import universalteam.universalcore.version.UCVersion;
+import universalteam.universalcore.version.UCVersionChecker;
 
 public class CommonProxy
 {
@@ -15,8 +18,11 @@ public class CommonProxy
 
 	public void preInit()
 	{
-		initItems();
+		UCVersionChecker.registerModVersion(new UCVersion(Reference.MOD_VERSION, "https://github.com/UniversalTeam/UCModVersions/blob/master/Runica/version.json"));
+
 		initCreativeTabs();
+
+		initItems();
 	}
 
 	public void Init()

@@ -16,6 +16,9 @@ public abstract class SpellBasic implements ISpell
 	public abstract int getPowerFromSurroundings(EntityPlayer player, World world, int x, int y, int z);
 
 	@Override
+	public abstract String[] requiredSpecialEvents();
+
+	@Override
 	public String getDescription()
 	{
 		return null;
@@ -23,4 +26,7 @@ public abstract class SpellBasic implements ISpell
 
 	@Override
 	public abstract void castSpell(EntityPlayer player, World world, int x, int y, int z);
+
+	@Override
+	public abstract boolean isAllowedToCast(EntityPlayer player, World world, int x, int y, int z);
 }

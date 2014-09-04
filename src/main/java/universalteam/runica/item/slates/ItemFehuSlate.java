@@ -1,20 +1,20 @@
 package universalteam.runica.item.slates;
 
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.world.World;
 import universalteam.runica.lib.Reference;
+import universalteam.runica.proxies.CommonProxy;
 
 public class ItemFehuSlate extends ItemBlankSlate
 {
 	public ItemFehuSlate()
 	{
 		super.setUnlocalizedName("fehuSlate");
-		super.setCreativeTab(CreativeTabs.tabMisc);
+		super.setCreativeTab(CommonProxy.tabRunica);
 	}
 
 	@Override

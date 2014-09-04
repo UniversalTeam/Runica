@@ -18,7 +18,7 @@ public class CommonProxy
 
 	public void preInit()
 	{
-		UCVersionChecker.registerModVersion(new UCVersion(Reference.MOD_VERSION, "https://github.com/UniversalTeam/UCModVersions/blob/master/Runica/version.json"));
+		UCVersionChecker.registerModVersion(new UCVersion(Reference.MOD_VERSION, "https://raw.githubusercontent.com/UniversalTeam/UCModVersions/master/Runica/version.json"));
 
 		initCreativeTabs();
 

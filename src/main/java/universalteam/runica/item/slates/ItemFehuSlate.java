@@ -13,20 +13,20 @@ public class ItemFehuSlate extends ItemBlankSlate
 {
 	public ItemFehuSlate()
 	{
-		super.setUnlocalizedName("fehuSlate");
+		super.setUnlocalizedName("ansuzSlate");
 		super.setCreativeTab(CommonProxy.tabRunica);
 	}
 
 	@Override
 	public void registerIcons(IIconRegister icon)
 	{
-		this.itemIcon = icon.registerIcon(Reference.MOD_ID + ":fehuSlate");
+		this.itemIcon = icon.registerIcon(Reference.MOD_ID + ":ansuzSlate");
 	}
 
-	@Override
+    @Override
 	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player)
 	{
-		player.addChatMessage(new ChatComponentText(EnumChatFormatting.DARK_PURPLE + "This Slate has a peculiar 'f' Rune symbol on it..."));
+		player.addChatMessage(new ChatComponentText(EnumChatFormatting.DARK_PURPLE + "This Slate has a peculiar 'a' Rune symbol on it..."));
 		return itemStack;
 	}
 }

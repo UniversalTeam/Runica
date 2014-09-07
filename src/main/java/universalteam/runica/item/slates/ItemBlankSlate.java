@@ -17,7 +17,7 @@ public class ItemBlankSlate extends Item
 	public ItemBlankSlate()
 	{
 		this.setUnlocalizedName("blankSlate");
-		this.setCreativeTab(CommonProxy.tabRunica);
+		//this.setCreativeTab(CommonProxy.tabRunica);
 	}
 
 	@Override

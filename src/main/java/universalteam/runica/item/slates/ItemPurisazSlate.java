@@ -14,7 +14,7 @@ public class ItemPurisazSlate extends ItemBlankSlate
     public ItemPurisazSlate()
     {
         super.setUnlocalizedName("purisazSlate");
-        super.setCreativeTab(CommonProxy.tabRunica);
+        //super.setCreativeTab(CommonProxy.tabRunica);
     }
 
     @Override

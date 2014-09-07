@@ -14,7 +14,7 @@ public class ItemUruzSlate extends ItemBlankSlate
     public ItemUruzSlate()
     {
         super.setUnlocalizedName("uruzSlate");
-        super.setCreativeTab(CommonProxy.tabRunica);
+        //super.setCreativeTab(CommonProxy.tabRunica);
     }
 
     @Override

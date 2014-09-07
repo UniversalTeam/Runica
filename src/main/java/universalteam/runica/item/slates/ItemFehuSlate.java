@@ -14,7 +14,7 @@ public class ItemFehuSlate extends ItemBlankSlate
 	public ItemFehuSlate()
 	{
 		super.setUnlocalizedName("ansuzSlate");
-		super.setCreativeTab(CommonProxy.tabRunica);
+		//super.setCreativeTab(CommonProxy.tabRunica);
 	}
 
 	@Override

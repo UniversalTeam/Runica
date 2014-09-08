@@ -15,12 +15,6 @@ public class CommonProxy
 
 	public static Item slate;
 
-	/*public static Item blankSlate;
-	public static Item fehuSlate;
-	public static Item uruzSlate;
-	public static Item purisazSlate;
-	public static Item ansuzSlate;*/
-
 	public void preInit()
 	{
 		UCVersionChecker.registerModVersion(new UCVersion(Reference.MOD_VERSION, "https://raw.githubusercontent.com/UniversalTeam/UCModVersions/master/Runica/version.json"));
@@ -44,19 +38,7 @@ public class CommonProxy
 	{
 		slate = new ItemSlate();
 
-		/*blankSlate = new ItemBlankSlate();
-		fehuSlate = new ItemFehuSlate();
-		uruzSlate = new ItemUruzSlate();
-		purisazSlate = new ItemPurisazSlate();
-		ansuzSlate = new ItemAnsuzSlate();*/
-
 		GameRegistry.registerItem(slate, "runica.slate");
-
-		/*GameRegistry.registerItem(blankSlate, "blankSlate");
-		GameRegistry.registerItem(fehuSlate, "fehuSlate");
-		GameRegistry.registerItem(uruzSlate, "uruzSlate");
-		GameRegistry.registerItem(purisazSlate, "purisazSlate");
-		GameRegistry.registerItem(ansuzSlate, "ansuzSlate");*/
 	}
 
 	protected void initCreativeTabs()

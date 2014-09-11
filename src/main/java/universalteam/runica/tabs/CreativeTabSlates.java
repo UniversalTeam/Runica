@@ -37,6 +37,11 @@ public class CreativeTabSlates extends CreativeTabs
 			ItemStack stack = new ItemStack(CommonProxy.slate);
 			stack.setTagCompound(compound);
 			list.add(stack);
+
+            compound.setString("RunicaParchment", ElderFutharkAlphabet.alphabet.get(i));
+            ItemStack stack2 = new ItemStack(CommonProxy.parchment);
+            stack2.setTagCompound(compound);
+            list.add(stack2);
 		}
 	}
 }

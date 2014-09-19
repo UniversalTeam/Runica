@@ -3,6 +3,8 @@ Runica
 
 Runic is a Magic and Exploration mod for Minecraft, feel free to PR and fix bugs for us... -- STILL IN DEVELOPMENT
 
+![alt tag](http://puu.sh/bFfka/58a015f695.png)
+
 ## Planned Features:
 1. A working rune system
 2. New custom dimensions

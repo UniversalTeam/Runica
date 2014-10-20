@@ -6,11 +6,11 @@ Runic is a Magic and Exploration mod for Minecraft, feel free to PR and fix bugs
 ![alt tag](http://puu.sh/bFfka/58a015f695.png)
 
 ## Planned Features:
-1. A working rune system
-2. New custom dimensions
-3. Nice magical utilities
-4. A Shadow and Seperation of body system for unique gameplay
-5. NPCs in the world to interact with
+
+## Ownership
+This mod used to belong to Blorph until Oct 20 2014, when he handed over ownership to SeamusFD
+
+![alt tag](http://puu.sh/ck5kN/7dc2b2148b.png)
 
 ## Installation:
 ###### Note - This is for building the game inside of a dev enviroment

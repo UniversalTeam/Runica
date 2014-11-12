@@ -1,7 +1,5 @@
-item.blankSlate.name=Blank Slate
-item.fehuSlate.name=Fehu Slate
-item.uruzSlate.name=Uruz Slate
-item.purisazSlate.name=Purisaz Slate
-item.ansuzSlate.name=Ansuz Slate
 itemGroup.tabSlates=Runica Slates
+itemGroup.tabBlocks=Runica Blocks
 item.slate.name=Slate
+item.parchment.name=Parchment
+tile.fehuRuneBlock.name=Fehu Rune Block
